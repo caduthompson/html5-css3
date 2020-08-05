@@ -1,2 +1,2 @@
 # Thompson' Barber
-## Create this Bebsite to Practice HTML5 + CSS3
+## Create this Website to Practice HTML5 + CSS3
