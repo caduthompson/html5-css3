@@ -3,7 +3,7 @@ body {
 }
 
 header {
-	background: #BBBBBB;
+	background: #F5F5F5;
 	padding: 20px 0;
 }
 
@@ -84,7 +84,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("./images/bg.jpg");
+	background: url("../images/bg.jpg");
 	padding: 40px 0;
 }
 
@@ -192,7 +192,7 @@ td, th {
 
 .mapa {
 	padding: 3em 0;
-	background: linear-gradient(#FEFEFE, #888888);
+	background: linear-gradient(#FEFEFE, #1A1A1A);
 }
 
 .mapa-conteudo {
@@ -207,7 +207,8 @@ td, th {
 
 .beneficios {
 	padding: 3em 0;
-	background: #888888;
+	background: #1A1A1A;
+	color: #FFFFFF;
 }
 
 .conteudo-beneficios {
@@ -219,6 +220,7 @@ td, th {
 	width: 40%;
 	display: inline-block;
 	vertical-align: top;
+	color: #FFFFFF
 }
 
 .itens {
@@ -237,7 +239,7 @@ td, th {
 	width: 60%;
 	opacity: 1;
 	transition: 400ms;
-	box-shadow: 10px 10px 10px 0 #000000;
+	box-shadow: 10px 10px 10px 0 #FFFFFF;
 }
 
 .imagem-beneficios:hover {

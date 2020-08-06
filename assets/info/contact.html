@@ -2,21 +2,21 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Barber Thompson's - Contact</title>
+		<title>Thompson's Barber - Contact</title>
 
-		<link rel="stylesheet" href="/assets/style/reset.css">
-		<link rel="stylesheet" href="/assets/styles/style.css">
+		<link rel="stylesheet" href="../styles/reset.css">
+		<link rel="stylesheet" href="../styles/style.css">
 	</head>
 	<body>
 		<header>
 			<div class="caixa">
-				<h1><img src="/assets/images/logo.png" alt="Logo da Barber Thompson's"></h1>
+				<h1><img src="../images/logo.png" alt="Thompson's Barber Logo"></h1>
 
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="/assets/info/product.html">Produtos</a></li>
-						<li><a href="/assets/info/contact.html">Contato</a></li>
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="product.html">Product</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -24,63 +24,63 @@
 
 		<main>
 			<form>
-				<label for="nomesobrenome">Nome e sobrenome</label>
+				<label for="nomesobrenome">Name - Last Name</label>
 				<input type="text" id="nomesobrenome" class="input-padrao" required>
 
 				<label for="email">Email</label>
 				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-				<label for="telefone">Telefone</label>
+				<label for="telefone">Mobile</label>
 				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-				<label for="mensagem">Mensagem</label>
+				<label for="mensagem">Message</label>
 				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
 				<fieldset>
-					<legend>Como prefere o nosso contato?</legend>
+					<legend>How do you prefer our contact?</legend>
 					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
 					
-					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Mobile</label>
 					
 					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
 				</fieldset>
 
 				<fieldset>
-					<legend>Qual horário prefere ser atendido?</legend>
+					<legend>What time do you prefer to be attended?</legend>
 					<select>
-						<option>Manhã</option>
-						<option>Tarde</option>
-						<option>Noite</option>
+						<option>Moring</option>
+						<option>Evening</option>
+						<option>Night</option>
 					</select>
 				</fieldset>
 
-				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+				<label class="checkbox"><input type="checkbox" checked>Would you like to receive our news by email?</label>
 
-				<input type="submit" value="Enviar formulário" class="enviar">
+				<input type="submit" value="Send" class="enviar">
 			</form>
 
 			<table>
 				<tr>
-					<td>Dia</td>
-					<td>Horário</td>
+					<td>Day</td>
+					<td>Time</td>
 				</tr>
 				<tr>
-					<td>Segunda</td>
+					<td>Monday</td>
 					<td>8h ~ 20h</td>
 				</tr>
 				<tr>
-					<td>Quarta</td>
+					<td>Wednesday</td>
 					<td>8h ~ 20h</td>
 				</tr>
 				<tr>
-					<td>Sexta</td>
+					<td>Friday</td>
 					<td>8h ~ 20h</td>
 				</tr>
 			</table>
 		</main>
 
 		<footer>
-			<img src="/assets/images/logo-branco.png" alt="Logo da Barber Thompson's">
+			<img src="../images/logo-branco.png" alt="Thompson's Barber Logo">
 			<p class="copyright">&copy; Copyright Barber Thompson's - 2019</p>
 		</footer>
 	</body>
