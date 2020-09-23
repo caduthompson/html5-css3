@@ -1,2 +1,1 @@
-# Thompson' Barber
-## Create this Website to Practice HTML5 + CSS3
+# Example of Website in HTML5 + CSS3
